@@ -49,8 +49,8 @@ net.eval()
 trn = transforms.Compose([transforms.Resize(256),
                           transforms.CenterCrop(224),
                           transforms.ToTensor(), ])
-x_ori = trn(Image.open('sample/ILSVRC2012_val_00037780.JPEG'))
-x_tar = trn(Image.open('sample/ILSVRC2012_val_00035133.JPEG'))
+x_ori = trn(Image.open('sample_image/ILSVRC2012_val_00037780.JPEG'))
+x_tar = trn(Image.open('sample_image/ILSVRC2012_val_00035133.JPEG'))
 
 WellBeguns = [0, 1]    # 0: baseline, 1: the proposed
 for i_WB in range(2):
@@ -76,3 +76,4 @@ for i_WB in range(2):
 
     t4 = time.time()
     print(f'##################### End Itetations:  took {t4 - t3:.3f} sec #######################')
+
