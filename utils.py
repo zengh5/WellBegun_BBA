@@ -26,11 +26,11 @@ def nnz_pixels(arr):
     return np.count_nonzero(np.sum(np.absolute(arr), axis=0))
 
 
-class LFAA_GaussianFilter(nn.Module):
-    """LFAA Gaussian low-pass filter for frequency decomposition"""
+class GaussianFilter(nn.Module):
+    """Gaussian low-pass filter for frequency decomposition"""
 
     def __init__(self, kernel_size=17, sigma=4, channels=3):
-        super(LFAA_GaussianFilter, self).__init__()
+        super(GaussianFilter, self).__init__()
         self.kernel_size = kernel_size
         self.pad = kernel_size // 2
         self.channels = channels
