@@ -3,6 +3,8 @@ Our main idea can be summarized with just two sentences:
 - A closer starting point converges to a closer (local) optimum;
 - Leaving high-frequency components intact enables aggressive low-frequency mixing.
 
+<img src="figs/idea.png" width="550">
+
 In the supplementary file 'supp.pdf', we provide more detailed results:
 
 - Ablation study on filters;
