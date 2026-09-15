@@ -2,11 +2,7 @@ Official code for the paper 'Well Begun is Half Done: a New Initialization Strat
 Our main idea can be summarized with just two sentences:  
 - A closer starting point converges to a closer (local) optimum (![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) ) (https://placehold.it/150/ffffff/ff0000?text=hello));
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
++ blue
 ```
 - Leaving high-frequency components intact enables aggressive low-frequency mixing (The arc).
 
