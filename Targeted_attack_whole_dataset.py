@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 
 # User-defined packages
 from CGBA import Proposed_attack
-from utils import LFAA_GaussianFilter, load_ckpt
+from utils import load_ckpt
 
 
 # Sample_1000 is from Blackboxbench [2025TPAMI]
