@@ -13,7 +13,7 @@ from PIL import Image
 
 # User-defined packages
 from CGBA import Proposed_attack
-from utils import LFAA_GaussianFilter, load_ckpt
+from utils import GaussianFilter, load_ckpt
 
 
 ###############################################################
