@@ -5,12 +5,12 @@ from scipy.fftpack import dct, idct
 import math
 from matplotlib import pyplot as plt
 
-from utils import clip_image_values, LFAA_GaussianFilter
+from utils import clip_image_values, GaussianFilter
 
 
 ImageNet_mean = torch.FloatTensor([0.485, 0.456, 0.406]).view(1, 3, 1, 1).cuda()
 ImageNet_std = torch.FloatTensor([0.229, 0.224, 0.225]).view(1, 3, 1, 1).cuda()
-LF_filter = LFAA_GaussianFilter(kernel_size=17, sigma=4, channels=3)
+LF_filter = GaussianFilter(kernel_size=17, sigma=4, channels=3)
 
 
 class Proposed_attack():
