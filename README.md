@@ -1,6 +1,6 @@
 Official code for the paper 'Well Begun is Half Done: a New Initialization Strategy for Targeted Decision-Based Attack'  
 Our main idea can be summarized with just two sentences:  
-- Closer starting point converges closer optimum;
+- A closer starting point converges to a closer (local) optimum;
 - Leaving high-frequency components intact enables aggressive low-frequency mixing.
 
 In the supplementary file 'supp.pdf', we provide more detailed results:
