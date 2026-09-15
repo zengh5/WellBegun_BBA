@@ -4,7 +4,7 @@ Our main idea can be summarized with just two sentences:
 
 - Leaving high-frequency components intact enables aggressive low-frequency mixing (The arc).
 
-<img src="figs/idea.png" width="650">
+<img src="figs/idea.png" width="550">
 
 In the supplementary file 'supp.pdf', we provide more detailed results:
 
